@@ -1,11 +1,11 @@
 Problem No.1
-SET Val_1, Val_2,Val_3, Result as INTEGER Datatype
+SET Val_1, Val_2,Val_3, Result as Integer Datatype
 INPUT Val_1
 INPUT Val_2
 INPUT Val_3
 IF Val_1 > Val_2 AND  Val_1 > Val_3 THEN 
 		SET  Result TO Val_1 
-	ELSE IF Val_2 > Val_3 AND Val_2 > Val_1
+ELSE IF Val_2 > Val_3 AND Val_2 > Val_1
 		SET  Result TO Val_2
 ELSE
 	SET Result to Val_3
@@ -13,7 +13,7 @@ DISPLAY "Largest Value is " , Result
 
 
 Problem No.2
-SET Val_1, Val_2,Val_3 AS INTEGER Datatype
+SET Val_1, Val_2,Val_3 AS Integer Datatype
 INPUT Val_1 
 INPUT Val_2
 Result = (-Val_1 - Val_2)*(-1)
@@ -21,8 +21,8 @@ OUTPUT Result
 
 
 Problem No.3
-SET Val_1, out_Val_ , Val_2 AS INTEGER Datatype
-SET Oper AS CHAR Datatype
+SET Val_1, out_Val_ , Val_2 AS Integer Datatype
+SET Oper AS Character Datatype
 INPUT Val_1  
 INPUT Val_2
 INPUT Oper
