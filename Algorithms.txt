@@ -1,1 +1,36 @@
+Algorithm No.1
 
+Step 1: Ask user for number (a)
+Step 2: Ask user for divisor (b)
+Step 3: Check if (a % b == 0) then print "divisible"
+Step 4: else print "not divisible"
+Step 5: Stop
+
+
+Algorithm No.2
+Step 1: Ask user for number (a)
+Step 2: Check if (a == 1) then print "January"
+Step 3: Else if (a == 2) then print "February"
+Step 4: (a == 3) print "March"
+Step 5: (a == 4) print "April"
+Step 6: (a == 5) print "May"
+Step 7: (a == 6) print "June"
+Step 8: (a == 7) print "July"
+Step 9: (a == 8) print "August"
+Step 10: (a == 9) print "September"
+Step 11: (a == 10) print "October"
+Step 12: (a == 11) print "November"
+Step 13: (a == 12) print "December"
+Step 14: Stop
+
+
+Algorithm No.3
+Step 1: Ask user for number 1 (a)
+Step 2: Ask user for number 2 (b)
+Step 3: Ask user for operator (opp)
+Step 4: Check if (opp == "+") print a + b
+Step 5: Else if (opp == "-") print a - b
+Step 6: Else if (opp == "/") print a / b
+Step 7: Else if (opp == "*") print a * b
+Step 8: Else print "a / b"
+Step 9: Stop
