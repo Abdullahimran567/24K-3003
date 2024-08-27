@@ -1,1 +1,12 @@
-
+Problem No.1
+SET Val_1, Val_2,Val_3, Result as INTEGER Datatype
+INPUT Val_1
+INPUT Val_2
+INPUT Val_3
+IF Val_1 > Val_2 AND  Val_1 > Val_3 THEN 
+		SET  Result TO Val_1 
+	ELSE IF Val_2 > Val_3 AND Val_2 > Val_1
+		SET  Result TO Val_2
+ELSE
+	SET Result to Val_3
+DISPLAY "Largest Value is " , Result
