@@ -10,3 +10,31 @@ IF Val_1 > Val_2 AND  Val_1 > Val_3 THEN
 ELSE
 	SET Result to Val_3
 DISPLAY "Largest Value is " , Result
+
+
+Problem No.2
+SET Val_1, Val_2,Val_3 AS INTEGER Datatype
+INPUT Val_1 
+INPUT Val_2
+Result = (-Val_1 - Val_2)*(-1)
+OUTPUT Result
+
+
+Problem No.3
+SET Val_1, out_Val_ , Val_2 AS INTEGER Datatype
+SET Oper AS CHAR Datatype
+INPUT Val_1  
+INPUT Val_2
+INPUT Oper
+IF (Oper == '+') THEN
+   DISPLAY out_Val_ = Val_1 + Val_2
+ELSE IF (Oper == '-') THEN
+    DISPLAY out_Val_ = Val_1 - Val_2
+ELSE IF (Oper == '/')
+     DISPLAY out_Val_ = Val_1 / Val_2
+ELSE IF (Oper == '*')
+      DISPLAY out_Val_ = Val_1 * Val_2
+ELSE IF (Oper == '%')
+	DISPLAY out_Val_ = Val_1 % Val_2
+Else
+	DISPLAY "ERROR"
